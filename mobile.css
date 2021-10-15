@@ -1,0 +1,273 @@
+p {
+    font-size: 1em;
+}
+nav{
+    display:none;
+}
+
+nav:target {
+    display: block;
+    position: fixed;
+    text-align: center;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.shownav {
+    height: 5em;
+    width: 8em;
+    padding-top: 1em;
+    top: 10px;
+    left: 8px;
+    display: block;
+    position: absolute;
+    border: 0.2em solid white;
+    background: linear-gradient(45deg,#F8C8DC ,#96DED1);
+    position:fixed;
+}
+
+nav li{
+    padding:1em;
+    list-style: none;
+    font-size: 1.1em;
+}
+
+.nav-behind {
+    color: transparent;
+    padding:2em;
+}
+
+.landing h1 {
+    font-size:  3.5em;
+    white-space: nowrap;
+    position: absolute;
+    left:15%;
+    z-index: -1;
+
+}
+
+.landing h1::before {
+    content:attr(title);
+    position: absolute;
+    grid-area:landing;
+    font-family:'Open Sans', sans-serif;
+    color: magenta;
+    z-index: -2;
+    left: 0.5%;
+    
+}
+
+.landing h1::after {
+    content:attr(title);
+    position: absolute;
+    grid-area:landing;
+    font-family:'Open Sans', sans-serif;
+    color: cyan;
+    z-index: -3;
+    left: -0.5%;
+    
+}
+
+
+.about {
+    padding-bottom: 8em; 
+    grid-template-areas: "about-txt"
+                         "about-img";
+}
+.about-txt {
+    margin-top: 5em;
+}
+.about-img {
+    height: 200px;
+    width:200px;
+    margin-top: 4em;
+    border: 10px solid transparent;
+    border-image: linear-gradient(45deg,#F8C8DC ,#96DED1);
+    border-image-slice:1;
+    z-index: -1;
+    display: block;
+    margin-left:auto;
+    margin-right:auto;
+}
+.about-image {
+    height: 200px;
+    width:200px;
+}
+
+.projects {
+    grid-template-areas:"project-title"
+                        "project-1" 
+                        "project-1-label"
+                        "project-2 "
+                        "project-2-label"
+                        "project-3"
+                        "project-3-label"
+                        "project-txt";
+}
+
+.project-1 {
+    height: 200px;
+    width: 200px;
+    border: 10px solid transparent;
+    border-image: linear-gradient(45deg,#F8C8DC ,#96DED1);
+    border-image-slice:1;
+    display: block;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.project-2 {
+    height: 200px;
+    width: 200px;
+    border: 10px solid transparent;
+    border-image: linear-gradient(45deg,#F8C8DC ,#96DED1);
+    border-image-slice:1;
+    display: block;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.project-3 {
+    height: 200px;
+    width: 200px;
+    border: 10px solid transparent;
+    border-image: linear-gradient(45deg,#F8C8DC ,#96DED1);
+    border-image-slice:1;
+    display: block;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.web-port { 
+    height: 200px;
+    width: 200px;
+}
+
+.baby-maze {
+    height: 200px;
+    width: 200px;
+}
+.lap-repair {
+    height: 200px;
+    width: 200px;
+}
+
+.project-txt  p:nth-of-type(2) {
+    display: block;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.achievements { 
+    grid-template-areas:"achievements-title"
+                        "achievement-1"
+                        "achievement-1-label"
+                        "achievement-2"
+                        "achievement-2-label";
+}
+
+.achievement-1 {
+    height: 250px;
+    width: 250px;
+    border: 10px solid transparent;
+    border-image: linear-gradient(45deg,#F8C8DC ,#96DED1);
+    border-image-slice:1;
+    display: block;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.achievement-2 {
+    height: 250px;
+    width: 250px;
+    border: 10px solid transparent;
+    border-image: linear-gradient(45deg,#F8C8DC ,#96DED1);
+    border-image-slice:1;
+    display: block;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.aws-cert{
+    height: 250px;
+    width: 250px;
+}
+
+.mh-cert {
+    height: 250px;
+    width: 250px;
+}
+
+.socials {
+    grid-template-areas:"socials-title"
+                        "twitter"
+                        "twitter-lnk"
+                        "linkedIn"
+                        "linkedIn-lnk"
+                        "github"
+                        "github-lnk"
+                        "socials-txt";
+}
+
+.twitter{
+    height: 250px;
+    width: 250px;
+    border: 10px solid transparent;
+    border-image: linear-gradient(45deg,#F8C8DC ,#96DED1);
+    border-image-slice:1;
+    display: block;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.twitter-img {
+    height: 250px;
+    width: 250px;
+}
+.twitter-lnk {
+    margin-left:15em;
+    margin-right:15em;
+}
+
+.linkedIn {
+    height: 250px;
+    width: 250px;
+    border: 10px solid transparent;
+    border-image: linear-gradient(45deg,#F8C8DC ,#96DED1);
+    border-image-slice:1;
+    display: block;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.linkedIn-img {
+    height: 250px;
+    width: 250px;
+}
+
+.linkedIn-lnk {
+    margin-left:15em;
+    margin-right:15em;
+}
+
+.github{
+    height: 250px;
+    width: 250px;
+    border: 10px solid transparent;
+    border-image: linear-gradient(45deg,#F8C8DC ,#96DED1);
+    border-image-slice:1;
+    display: block;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.github-img {
+    height: 250px;
+    width: 250px;
+}
+
+.github-lnk {
+    margin-left:15em;
+    margin-right:15em;
+}
