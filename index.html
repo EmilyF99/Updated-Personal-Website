@@ -36,7 +36,7 @@
                     <li><a href="#about">About</a></li>
                     <li><a href="#history">History</a></li>
                     <li><a href="#goals">Goals</a></li>
-                    <li><a href="#projects">Recent Projects</a></li> <!--Add six featured projects then link to a seperate project page-->
+                    <li><a href="#featuredProjects">Recent Projects</a></li> <!--Add six featured projects then link to a seperate project page-->
                     <li><a href="#experiences">Experiences</a></li>
                     <li><a href="#achievements">Achievements</a></li>
                     <li><a href="#blog">Blog</a></li>
@@ -45,218 +45,234 @@
                 </ul>
             </nav>
             <body>
-                <div class="nav-behind" id="about">
+                <div id = "nav-behind">
                     <p>hidden</p>
                 </div>
                 
-                <div class="landing">
+                <div id = "about">
                     <h1 title = "Emily Fletcher">Emily Fletcher</h1> <!--Needs Fixing so it displays correctly on all devices-->
                 </div>
 
-                <div class="about">
-                    <div class="about-txt">
-                        <p>Hi! I'm Emily, thanks for checking my page out. I'm a creative thinking, hardworking, second year student at the University of Northampton.</p>
-                        <p>I can currently work confidentally with HTML, CSS, Basic Java and Project Planning Applications</p>
-                        <p>I'm currently learning JavaScript, Java, SQL, PHP with Docker and WordPress</p>
-                        <p>I am quite well versed in Core Soft Skills such as leadership, team work, project planning, advocacy and communication</p>
-                        <p>Please use the Navigation Menu or Scroll to learn more about me.</p>
-                    </div>
-                    <div class="about-img"> <!-- Add Alts to ALL images-->
-                        <img src = "Collab.jpg" class ="about-image" alt ="An Image of Emily"> <!--Not Level with text, needs fixing-->
+                <div id = "about">
+                    <div id = "aboutContainer" class ="container">
+                        <div id="about-txt">
+                            <p>Hi! I'm Emily, thanks for checking my page out. I'm a creative thinking, hardworking, second year student at the University of Northampton.</p>
+                            <p>I can currently work confidentally with HTML, CSS, Basic Java and Project Planning Applications</p>
+                            <p>I'm currently learning JavaScript, Java, SQL, PHP with Docker and WordPress</p>
+                            <p>I am quite well versed in Core Soft Skills such as leadership, team work, project planning, advocacy and communication</p>
+                            <p>Please use the Navigation Menu or Scroll to learn more about me.</p>
+                        </div>
+
+                        <div id="about-img">
+                            <img src = "Collab.jpg" class ="about-image" alt ="An Image of Emily"> <!--Not Level with text, needs fixing-->
+                        </div>
                     </div>
                 </div>
 
-                <div class="about-history-divide" id="history"></div> <!--Change Class to a single divide class to optimise code-->
+                <div class="divide"></div>
                 
-                <div class="history">
-                    <h1>History</h1>
-                    <p>I started working with computers and technology when I was around ten years old, until the age of 18 I worked on mostly troubleshooting, hardware projects and often repaired video game consoles.</p>
-                    <p>In 2018 I left for university and did two years of a Children's Nursing Degree</p>
-                    <p>A lack of creativity within my degree and inspiration from others encouraged me to leave nursing and I started a computing degree in 2020.</p>
-                    <p>At the end of 2020 I changed my Computing Degree pathway to Software-Engineering, this was due to enjoying the more code heavy and creative tasks within my first year.</p>
+                <div id="history">
+                    <div id = "historyContainer" class ="container">
+                        <h1>History</h1>
+                        <p>I started working with computers and technology when I was around ten years old, until the age of 18 I worked on mostly troubleshooting, hardware projects and often repaired video game consoles.</p>
+                        <p>In 2018 I left for university and did two years of a Children's Nursing Degree</p>
+                        <p>A lack of creativity within my degree and inspiration from others encouraged me to leave nursing and I started a computing degree in 2020.</p>
+                        <p>At the end of 2020 I changed my Computing Degree pathway to Software-Engineering, this was due to enjoying the more code heavy and creative tasks within my first year.</p>
+                    </div>
                 </div>
 
-                <div class="history-goals-divide" id="goals"></div>
+                <div class="divide"></div>
 
-                <div class="goals">
-                    <h1>Goals for the Academic Year 2021/2022</h1> <!--Add better spacing for the list in this section--> 
-                    <!--Add bullet points back in to bette fit house style-->
-                    <ul>
-                        <li>Attend more Networking Events to develop my Networking Skills</li>
-                        <li>Advance my Web Development skills by advancing my JavaScript knowledge and start making PHP sites.</li>
-                        <li>Start developing basic Java Applications.</li>
-                    </ul>
-                    <h1>Goals for the Previous Year 2020/2021</h1>
-                    <ul>   
-                        <li>Improve my presence on Social Media</li>
-                        <li>Develop my HTML and CSS skills</li>
-                        <li>Advance my Java Skills</li>
-                    </ul>  
-                    </div>
-
-                <div class="goals-projects-divide" id="projects"></div> 
-
-                <div class="featuredProjects"> <!--changed from projects, update CSS--> <!--Lots of changes so CSS will break-->
-                    <div class=project-title>
-                        <h1>Featured Projects</h1>
-                        <p>Below are six of my projects that I believe best show my skill level and I've enjoyed the most</p>;
-                        <p>Please click the button at the bottom to see all my current projects.</p>
-                    </div>
-                    
-                    <div class = "projectContainer">
-                        <div class="project-1">
-                            <img src="" class="" alt ="">
-                            <p>Label 1 Place Holder</p>
-                        </div>
-
-                        <div class="project-2">
-                            <img src="" class="" alt="">
-                            <p>Label 2 Place Holder</p>
-                        </div>
-
-                        <div class="project-3">
-                            <img src="" class="" alt="">
-                            <p>Label 3 Place Holder</p>
-                        </div>
-
-                        <div class="project-4">
-                            <img src="" class="" alt="">
-                            <p>Label 4 Place Holder</p>
-                        </div>
-
-                        <div class="project-5">
-                            <img src="" class="" alt="">
-                            <p>Label 5 Place Holder</p>
-                        </div>
-
-                        <div class="project-6">
-                            <img src="" class="" alt ="">
-                            <p>Label 6 Place Holder</p>
-                        </div>
+                <div id ="goals">
+                    <div id = goalsContainer class ="container">
+                        <h1>Goals for the Academic Year 2021/2022</h1> <!--Add better spacing for the list in this section--> 
+                        <ul>
+                            <li>Attend more Networking Events to develop my Networking Skills</li>
+                            <li>Advance my Web Development skills by advancing my JavaScript knowledge and start making PHP sites.</li>
+                            <li>Start developing basic Java Applications.</li>
+                        </ul>
                         
-                        <div class="allProjects">
-                            <p><a href="">Click here to see all my projects</a></p>
-                       </div>
+                        <h1>Goals for the Previous Year 2020/2021</h1>
+                        <ul>   
+                            <li>Improve my presence on Social Media</li>
+                            <li>Develop my HTML and CSS skills</li>
+                            <li>Advance my Java Skills</li>
+                        </ul>  
                     </div>
                 </div>
 
-                <div class="projects-experiences-divide" id="experiences"></div>
+                <div class="divide"></div> 
 
-                <div class="experiences">
-                    <h1>Experiences</h1>
+                <div id="featuredProjects"> 
+                    <div id = "featuredProjectsContainer" class ="container">
+                        
+                            <h1>Featured Projects</h1>
+                            <p>Below are six of my projects that I believe best show my skill level and I've enjoyed the most</p>
+                            <p>Please click the button at the bottom to see all my current projects.</p>
+                        
                     
-                    <h3>Summer 2021 - Present</h3>
-                    <ul>
-                        <li>Computing Student (Software Engineering) - University of Northampton</li>
-                        <li>Course Advocate (Computing)</li>
-                        <li>Scout Leader</li>
-                        <li>Secretary of University of Northampton Computing Society</li>
-                        <li>Student Ambassador - University of Northampton</li>
-                    </ul>
+                        <div id = "projectContainer">
+                            <div id="project-1" class = "projects">
+                                <img src="" class="" alt ="">
+                                <p>Label 1 Place Holder</p>
+                            </div>
 
-                    <h3>Early 2020 - Summer 2021</h3>
-                    <ul>
-                        <li>Computing Student - University of Northampton</li>
-                        <li>Course Advocate (Computing)</li>
-                        <li>Student Ambassador - University of Northampton</li>
-                    </ul>
+                            <div id="project-2" class = "projects">
+                                <img src="" class="" alt="">
+                                <p>Label 2 Place Holder</p>
+                            </div>
 
-                    <h3>Mid 2018 - Summer 2021</h3>
-                    <ul>
-                        <li>Assistant Scout Leader</li>
-                    </ul>
+                            <div id="project-3" class = "projects">
+                                <img src="" class="" alt="">
+                                <p>Label 3 Place Holder</p>
+                            </div>
 
-                    <h3>Late 2018- Late 2020</h3>
-                    <ul>
-                        <li>Student Nurse (Child branch) - University of Northampton</li>
-                        <li>Course Advocate (Nursing)</li>
-                    </ul>
+                            <div id = "project-4" class = "projects">
+                                <img src="" class="" alt="">
+                                <p>Label 4 Place Holder</p>
+                            </div>
 
-                    <h3>Early 2017- Late 2018</h3>
-                    <ul>
-                        <li>Worked at CEX in the tech retail industry</li>
-                    </ul>
+                            <div id = "project-5" class = "projects">
+                                <img src="" class="" alt="">
+                                <p>Label 5 Place Holder</p>
+                            </div>
 
-                    <h3>Late 2015 - Mid 2018</h3>
-                    <ul>
-                        <li>Achieved D*D* Cambridge Technical Introductory Diploma in ICT </li>
-                        <li>Achieved D* Extended Certificate in Health and Social Care</li>
-                    </ul>
+                            <div id = "project-6" class = "projects">
+                                <img src="" class="" alt ="">
+                                <p>Label 6 Place Holder</p>
+                            </div>
+                        
+                            <div id = "allProjects">
+                                <p><a href="">Click here to see all my projects</a></p>
+                            </div>
+
+                        </div>
+                    </div>
                 </div>
 
-                <div class="experiences-achievements-divide" id="achievements"></div>
+                <div class="divide"></div>
 
-                <div class="achievements">
-
-                    <div class="achievements-title">
-                    <h1>Achievements</h1>
-                    </div>
-
-                    <div class="achievement-1">
-                        <img src="" class="" alt="">
-                        <p>Achievement 1 Place Holdler</p>
-                    </div>
-
-
-                    <div class="achievement-2">
-                        <img src = "" class ="" alt="">
-                        <p>Achievement 2 Place Holdler</p>
-                    </div>
-
-                    <div class="achievement-3">
-                        <img src = "" class ="" alt="">
-                        <p>Achievement 3 Place Holdler</p>
-                    </div>
+                <div id="experiences">
+                    <div id = "experiencesContainer" class = "container">
+                        <h1>Experiences</h1>
                     
+                        <h3>Summer 2021 - Present</h3>
+                        <ul>
+                            <li>Computing Student (Software Engineering) - University of Northampton</li>
+                            <li>Course Advocate (Computing)</li>
+                            <li>Scout Leader</li>
+                            <li>Secretary of University of Northampton Computing Society</li>
+                            <li>Student Ambassador - University of Northampton</li>
+                        </ul>
+
+                        <h3>Early 2020 - Summer 2021</h3>
+                        <ul>
+                            <li>Computing Student - University of Northampton</li>
+                            <li>Course Advocate (Computing)</li>
+                            <li>Student Ambassador - University of Northampton</li>
+                        </ul>
+
+                        <h3>Mid 2018 - Summer 2021</h3>
+                        <ul>
+                            <li>Assistant Scout Leader</li>
+                        </ul>
+
+                        <h3>Late 2018- Late 2020</h3>
+                        <ul>
+                            <li>Student Nurse (Child branch) - University of Northampton</li>
+                            <li>Course Advocate (Nursing)</li>
+                        </ul>
+
+                        <h3>Early 2017- Late 2018</h3>
+                        <ul>
+                            <li>Worked at CEX in the tech retail industry</li>
+                        </ul>
+
+                        <h3>Late 2015 - Mid 2018</h3>
+                        <ul>
+                            <li>Achieved D*D* Cambridge Technical Introductory Diploma in ICT </li>
+                            <li>Achieved D* Extended Certificate in Health and Social Care</li>
+                        </ul>
+                    </div>
                 </div>
 
-                <div class="achievements-blog-divide" id="blog"></div>
+                <div class="divide"></div>
 
-                <div class="blog">
-                    <h1>Blog</h1>
-                    <p>My Blog is hosted on WordPress and is my first WordPress site, I write a post roughly once a week about what ever I've been thinking about that week.</p>
-                    <p><a href="https://emilystechbloggames.wordpress.com/" target="_blank" rel="noopener noreferrer" >Blog Link Here</a></p>
+                <div id="achievements">
+                    <div id = "achievementsContainer" class = "container">
+
+                            <h1>Achievements</h1>
+                        
+
+                        <div id = "achievement-1" class = "achievements">
+                            <img src="" class="" alt="">
+                            <p>Achievement 1 Place Holdler</p>
+                        </div>
+
+
+                        <div id = "achievement-2" class = "achievements">
+                            <img src = "" class ="" alt="">
+                            <p>Achievement 2 Place Holdler</p>
+                        </div>
+
+                        <div id = "achievement-3" class = "achievements">
+                            <img src = "" class ="" alt="">
+                            <p>Achievement 3 Place Holdler</p>
+                        </div>
+                    </div>
                 </div>
 
-                <div class="blog-socials-divide" id="socials"></div>
+                <div class="divide"></div>
 
-                <div class="socials">
-                    <div class="socials-title">
+                <div id="blog">
+                    <div id = "blogContainer" class = "container">
+                        <h1>Blog</h1>
+                        <p>My Blog is hosted on WordPress and is my first WordPress site, I write a post roughly once a week about what ever I've been thinking about that week.</p>
+                        <p><a href="https://emilystechbloggames.wordpress.com/" target="_blank" rel="noopener noreferrer" >Blog Link Here</a></p>
+                    </div>
+                </div>
+
+                <div class="divide"></div>
+
+                <div id="socials">
+                    <div id = "socialsContainer" class = "container">
                         <h1>Social Media</h1>
-                    </div>
 
-                    <div class="twitter">
-                        <img src="twitter.PNG" class="twitter-img" alt ="">
-                        <p><a href="https://twitter.com/EmilyFl59365186" target="_blank" rel="noopener noreferrer" >Twitter Link Here</a></p>
-                    </div>
+                        <div id="twitter">
+                            <img src="twitter.PNG" class="twitter-img" alt ="">
+                            <p><a href="https://twitter.com/EmilyFl59365186" target="_blank" rel="noopener noreferrer" >Twitter Link Here</a></p>
+                        </div>
 
+                        <div id="linkedIn">
+                            <img src="LinkedIn.PNG" class="linkedIn-img" alt="">
+                            <p><a href="https://www.linkedin.com/in/emily-fletcher-34b4b4196/" target="_blank" rel="noopener noreferrer" >LinkedIn Link Here</a></p>
+                        </div>
 
-                    <div class="linkedIn">
-                        <img src="LinkedIn.PNG" class="linkedIn-img" alt="">
-                        <p><a href="https://www.linkedin.com/in/emily-fletcher-34b4b4196/" target="_blank" rel="noopener noreferrer" >LinkedIn Link Here</a></p>
-                    </div>
+                        <div id="github">
+                            <img src="github.PNG" class="github-img" alt="">
+                            <p><a href="https://github.com/EmilyF99" target="_blank" rel="noopener noreferrer">GitHub Link Here</a></p>
+                        </div>
 
-                    <div class="github">
-                        <img src="github.PNG" class="github-img" alt="">
-                        <p><a href="https://github.com/EmilyF99" target="_blank" rel="noopener noreferrer">GitHub Link Here</a></p>
-                    </div>
-
-                    <div class="socials-txt">
+                        <div id="socials-txt">
                         <p>I'm active on all these platforms so feel free to get in touch with me on any of them.</p>
+                        </div>
                     </div>
                 </div>
 
-                <div class="socials-contact-divide" id="contact"></div> 
+                <div class="divide"></div> 
 
-                <div class="contact">
-                    <h1>Send me a message</h1>
-                    <form action="mailto:emilyfletcher099@gmail.com" method="POST" enctype="multipart/form-data" name="WebsiteForm">
-                    <button type="submit" value="Submit" class= "submit">Click to send me an Email</button>
-                    </form>
+                <div id="contact">
+                    <div id = "contactContainer" class = "container">
+                        <h1>Send me a message</h1>
+                        <form action="mailto:emilyfletcher099@gmail.com" method="POST" enctype="multipart/form-data" name="WebsiteForm">
+                            <button type="submit" value="Submit" class= "submit">Click to send me an Email</button>
+                        </form>
+                    </div>
                 </div>
 
-                <div class="contact-footer-divide"></div> 
+                <div class="divide"></div> 
             </body>
+
             <footer>
                 <p>Created by: Emily Fletcher</p>
                 <p>2021</p>
