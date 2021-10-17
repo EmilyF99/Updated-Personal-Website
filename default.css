@@ -23,27 +23,6 @@ body {
     z-index: -1;
 }
 
-/*All below needs checking for redundancy/ working */
-
-h1 {
-    font-family: 'Poppins', sans-serif;
-}
-
-h3 {
-    font-family: 'Poppins', sans-serif;
-    padding-top: 2em;
-}
-
-p {
-    font-family: 'Poppins', sans-serif;
-    padding: 1em;
-    font-size: 1.2em;
-}
-
-li {
-    font-family: 'Poppins', sans-serif;
-    
-}
 nav {
     position:fixed;
     background-image:linear-gradient(45deg,#F8C8DC ,#96DED1);
@@ -55,140 +34,36 @@ nav {
     z-index: 1;
 }
 
-.landing h1 {
+h1 {
+    font-family: 'Poppins', sans-serif;
+}
+
+h3 {
+    font-family: 'Poppins', sans-serif;
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2em;
+}
+
+li {
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+#landing h1 {
     font-family:'Open Sans', sans-serif;
 }
 
-.landing p {
+#landing p {
     font-family:'Open Sans', sans-serif;
     color: white;
-}
-
-.history {
-
-    padding-bottom: 12em;
-}
-
-.goals {
-    padding-bottom: 12em;
-}
-
-.projects {
-    padding-bottom: 12em; 
-}
-
-.project-1 {
-    background-color:white;
-    margin: 3em;
-    margin-top: 5em;
-    z-index: -1;
-}
-
-.project-2 {
-    background-color:white;
-    z-index: -1;
-    margin: 3em;
-    margin-top: 5em;
-}
-
-.project-3 {
-    background-color:white;
-    z-index: -1;
-    margin: 3em;
-    margin-top: 5em;
 }
 
 .project-txt  p:nth-of-type(2) {
     background: linear-gradient(45deg,#F8C8DC ,#96DED1);
 }
 
-.experiences {
-    padding-bottom: 12em;
-}
-
-.achievements { 
-    padding-bottom: 12em;
-    display: grid;
-    grid-template-columns:auto;
-    grid-template-rows: auto; 
-}
-
-.achievement-1 {
-    background-color:white;
-    position: relative;
-    margin:8.5em;
-    margin-top:6em;
-    margin-bottom:2em;
-    z-index: -1;
-}
-
-.achievement-2 {
-    background-color:white;
-    position: relative;
-    margin:8.5em;
-    margin-top:6em;
-    margin-bottom:2em;
-    z-index: -1;
-}
-
-.blog {
-    padding-bottom: 5em;
-}
-
-.socials {
-    padding-bottom: 12em; 
-}
-
-.twitter{
-    background-color:white;
-    position: relative;
-    margin: 3em;
-    margin-top: 5em;
-    z-index: -1;
-}
-
-.twitter-lnk {
-    background: linear-gradient(45deg,#F8C8DC ,#96DED1);
-    margin: 2em;
-}
-
-.linkedIn {
-    background-color:white;
-    position: relative;
-    margin: 3em;
-    margin-top: 5em;
-    z-index: -1;
-}
-
-.linkedIn-lnk {
-    background: linear-gradient(45deg,#F8C8DC ,#96DED1);
-    margin: 2em;
-}
-
-.github {
-    background-color:white;
-    position: relative;
-    margin: 3em;
-    margin-top: 5em;
-    z-index: -1;
-}
-
-.github-lnk {
-    background: linear-gradient(45deg,#F8C8DC ,#96DED1);
-    margin: 2em;
-}
-
-.contact {
-    padding-bottom: 12em;
-}
-
-.submit {
-    background: linear-gradient(45deg,#F8C8DC ,#96DED1);
-    font-family: 'Poppins', sans-serif;
-    color:#551A8B ; 
-    font-size: 1.2em;
-    padding: 1.8em;
-    margin-top: 5em;
-}
 
 

@@ -33,12 +33,7 @@ nav li{
     font-size: 1.1em;
 }
 
-.nav-behind {
-    color: transparent;
-    padding:2em;
-}
-
-.landing h1 {
+#landing h1 {
     font-size:  3.5em;
     white-space: nowrap;
     position: absolute;
@@ -46,7 +41,7 @@ nav li{
     z-index: -1;
 }
 
-.landing h1::before {
+#landing h1::before {
     content:attr(title);
     position: absolute;
     font-family:'Open Sans', sans-serif;
@@ -55,159 +50,11 @@ nav li{
     left: 0.5%;
 }
 
-.landing h1::after {
+#landing h1::after {
     content:attr(title);
     position: absolute;
     font-family:'Open Sans', sans-serif;
     color: cyan;
     z-index: -3;
     left: -0.5%;
-}
-
-
-.about {
-    padding-bottom: 8em; 
-}
-.about-txt {
-    margin-top: 5em;
-}
-.about-img {
-    height: 200px;
-    width:200px;
-    margin-top: 4em;
-    border: 10px solid transparent;
-    border-image: linear-gradient(45deg,#F8C8DC ,#96DED1);
-    border-image-slice:1;
-    z-index: -1;
-    display: block;
-    margin-left:auto;
-    margin-right:auto;
-}
-.about-image {
-    height: 200px;
-    width:200px;
-}
-
-.project-1 {
-    height: 200px;
-    width: 200px;
-    border: 10px solid transparent;
-    border-image: linear-gradient(45deg,#F8C8DC ,#96DED1);
-    border-image-slice:1;
-    display: block;
-    margin-left:auto;
-    margin-right:auto;
-}
-
-.project-2 {
-    height: 200px;
-    width: 200px;
-    border: 10px solid transparent;
-    border-image: linear-gradient(45deg,#F8C8DC ,#96DED1);
-    border-image-slice:1;
-    display: block;
-    margin-left:auto;
-    margin-right:auto;
-}
-
-.project-3 {
-    height: 200px;
-    width: 200px;
-    border: 10px solid transparent;
-    border-image: linear-gradient(45deg,#F8C8DC ,#96DED1);
-    border-image-slice:1;
-    display: block;
-    margin-left:auto;
-    margin-right:auto;
-}
-
-
-.project-txt  p:nth-of-type(2) {
-    display: block;
-    margin-left:auto;
-    margin-right:auto;
-}
-
-.achievement-1 {
-    height: 250px;
-    width: 250px;
-    border: 10px solid transparent;
-    border-image: linear-gradient(45deg,#F8C8DC ,#96DED1);
-    border-image-slice:1;
-    display: block;
-    margin-left:auto;
-    margin-right:auto;
-}
-
-.achievement-2 {
-    height: 250px;
-    width: 250px;
-    border: 10px solid transparent;
-    border-image: linear-gradient(45deg,#F8C8DC ,#96DED1);
-    border-image-slice:1;
-    display: block;
-    margin-left:auto;
-    margin-right:auto;
-}
-
-.twitter{
-    height: 250px;
-    width: 250px;
-    border: 10px solid transparent;
-    border-image: linear-gradient(45deg,#F8C8DC ,#96DED1);
-    border-image-slice:1;
-    display: block;
-    margin-left:auto;
-    margin-right:auto;
-}
-
-.twitter-img {
-    height: 250px;
-    width: 250px;
-}
-.twitter-lnk {
-    margin-left:15em;
-    margin-right:15em;
-}
-
-.linkedIn {
-    height: 250px;
-    width: 250px;
-    border: 10px solid transparent;
-    border-image: linear-gradient(45deg,#F8C8DC ,#96DED1);
-    border-image-slice:1;
-    display: block;
-    margin-left:auto;
-    margin-right:auto;
-}
-
-.linkedIn-img {
-    height: 250px;
-    width: 250px;
-}
-
-.linkedIn-lnk {
-    margin-left:15em;
-    margin-right:15em;
-}
-
-.github{
-    height: 250px;
-    width: 250px;
-    border: 10px solid transparent;
-    border-image: linear-gradient(45deg,#F8C8DC ,#96DED1);
-    border-image-slice:1;
-    display: block;
-    margin-left:auto;
-    margin-right:auto;
-}
-
-.github-img {
-    height: 250px;
-    width: 250px;
-}
-
-.github-lnk {
-    margin-left:15em;
-    margin-right:15em;
 }
