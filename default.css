@@ -12,22 +12,6 @@ body {
     background-color:#282634;
     color: white;
     text-align: center;
-
-    display: grid;
-    grid-template-columns:auto;
-    grid-template-rows: auto; 
-    grid-template-areas: "nav-behind"
-                         "landing"
-                         "about"
-                         "history"
-                         "goals"
-                         "projects"
-                         "experiences"
-                         "achievements"
-                         "blog"
-                         "socials"
-                         "contact"
-                         "footer";
 }
 
 .divide {
@@ -38,6 +22,8 @@ body {
     filter: blur(1px);
     z-index: -1;
 }
+
+/*All below needs checking for redundancy/ working */
 
 h1 {
     font-family: 'Poppins', sans-serif;
@@ -62,115 +48,54 @@ nav {
     position:fixed;
     background-image:linear-gradient(45deg,#F8C8DC ,#96DED1);
     width:100%;
+    top: 0;
     padding-bottom: 2em;
     padding-top:2em;
     color:#551A8B ;
     z-index: 1;
 }
 
-.nav-behind {
-    grid-area:nav-behind;
-    background-image:linear-gradient(45deg,#F8C8DC ,#96DED1);
-    
-}
-
-.landing {
-    grid-area:landing;
-}
-
 .landing h1 {
-    grid-area:landing;
     font-family:'Open Sans', sans-serif;
 }
 
 .landing p {
-    grid-area:landing;
     font-family:'Open Sans', sans-serif;
     color: white;
 }
 
-.about {
-    grid-area:about;
-    display: grid;
-    grid-template-columns:auto;
-    grid-template-rows: auto; 
-}
-
-.about-txt {
-    grid-area:about-txt;
-}
-
-.about-img {
-    grid-area:about-img;
-    background-color:white;
-    margin: 1em;
-}
-
 .history {
-    grid-area:history;
+
     padding-bottom: 12em;
 }
 
 .goals {
-    grid-area:goals;
     padding-bottom: 12em;
 }
-
-.goals li {
-    list-style: none;
-}
-
 
 .projects {
-    grid-area:projects;
-    padding-bottom: 12em;
-    display: grid;
-    grid-template-columns:auto;
-    grid-template-rows: auto; 
-}
-
-.project-title {
-    grid-area:project-title;
+    padding-bottom: 12em; 
 }
 
 .project-1 {
-    grid-area:project-1;
     background-color:white;
     margin: 3em;
     margin-top: 5em;
     z-index: -1;
-}
-
-.project-1-label {
-    grid-area:project-1-label;
 }
 
 .project-2 {
-    grid-area:project-2;
     background-color:white;
     z-index: -1;
     margin: 3em;
     margin-top: 5em;
-}
-
-.project-2-label {
-    grid-area:project-2-label;
 }
 
 .project-3 {
-    grid-area:project-3;
     background-color:white;
     z-index: -1;
     margin: 3em;
     margin-top: 5em;
-}
-
-.project-3-label {
-    grid-area:project-3-label;
-}
-
-.project-txt {
-    grid-area:project-txt;
 }
 
 .project-txt  p:nth-of-type(2) {
@@ -178,33 +103,17 @@ nav {
 }
 
 .experiences {
-    grid-area:experiences;
     padding-bottom: 12em;
 }
 
 .achievements { 
-    grid-area:achievements;
     padding-bottom: 12em;
     display: grid;
     grid-template-columns:auto;
     grid-template-rows: auto; 
 }
 
-.achievements-title {
-    grid-area:achievements-title;
-
-}
-
-.achievement-1-label {
-    grid-area:achievement-1-label;
-}
-
-.achievement-2-label {
-   grid-area:achievement-2-label;
-}
-
 .achievement-1 {
-    grid-area:achievement-1;
     background-color:white;
     position: relative;
     margin:8.5em;
@@ -214,7 +123,6 @@ nav {
 }
 
 .achievement-2 {
-    grid-area:achievement-2;
     background-color:white;
     position: relative;
     margin:8.5em;
@@ -223,30 +131,15 @@ nav {
     z-index: -1;
 }
 
-
 .blog {
-    grid-area:blog;
     padding-bottom: 5em;
 }
 
 .socials {
-    grid-area:socials;
-    padding-bottom: 12em;
-    display: grid;
-    grid-template-columns:auto;
-    grid-template-rows: auto; 
-}
-
-.socials-title {
-    grid-area:socials-title
-}
-
-.socials-txt {
-    grid-area:socials-txt;
+    padding-bottom: 12em; 
 }
 
 .twitter{
-    grid-area:twitter;
     background-color:white;
     position: relative;
     margin: 3em;
@@ -255,13 +148,11 @@ nav {
 }
 
 .twitter-lnk {
-    grid-area:twitter-lnk;
     background: linear-gradient(45deg,#F8C8DC ,#96DED1);
     margin: 2em;
 }
 
 .linkedIn {
-    grid-area:linkedIn;
     background-color:white;
     position: relative;
     margin: 3em;
@@ -270,13 +161,11 @@ nav {
 }
 
 .linkedIn-lnk {
-    grid-area:linkedIn-lnk;
     background: linear-gradient(45deg,#F8C8DC ,#96DED1);
     margin: 2em;
 }
 
-.github{
-    grid-area:github;
+.github {
     background-color:white;
     position: relative;
     margin: 3em;
@@ -285,13 +174,11 @@ nav {
 }
 
 .github-lnk {
-    grid-area:github-lnk;
     background: linear-gradient(45deg,#F8C8DC ,#96DED1);
     margin: 2em;
 }
 
 .contact {
-    grid-area:contact;
     padding-bottom: 12em;
 }
 
@@ -303,9 +190,5 @@ nav {
     padding: 1.8em;
     margin-top: 5em;
 }
-footer {
-    grid-area: footer;
-}
-
 
 

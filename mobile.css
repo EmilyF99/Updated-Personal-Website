@@ -44,36 +44,29 @@ nav li{
     position: absolute;
     left:15%;
     z-index: -1;
-
 }
 
 .landing h1::before {
     content:attr(title);
     position: absolute;
-    grid-area:landing;
     font-family:'Open Sans', sans-serif;
     color: magenta;
     z-index: -2;
     left: 0.5%;
-    
 }
 
 .landing h1::after {
     content:attr(title);
     position: absolute;
-    grid-area:landing;
     font-family:'Open Sans', sans-serif;
     color: cyan;
     z-index: -3;
     left: -0.5%;
-    
 }
 
 
 .about {
     padding-bottom: 8em; 
-    grid-template-areas: "about-txt"
-                         "about-img";
 }
 .about-txt {
     margin-top: 5em;
@@ -93,17 +86,6 @@ nav li{
 .about-image {
     height: 200px;
     width:200px;
-}
-
-.projects {
-    grid-template-areas:"project-title"
-                        "project-1" 
-                        "project-1-label"
-                        "project-2 "
-                        "project-2-label"
-                        "project-3"
-                        "project-3-label"
-                        "project-txt";
 }
 
 .project-1 {
@@ -139,32 +121,11 @@ nav li{
     margin-right:auto;
 }
 
-.web-port { 
-    height: 200px;
-    width: 200px;
-}
-
-.baby-maze {
-    height: 200px;
-    width: 200px;
-}
-.lap-repair {
-    height: 200px;
-    width: 200px;
-}
 
 .project-txt  p:nth-of-type(2) {
     display: block;
     margin-left:auto;
     margin-right:auto;
-}
-
-.achievements { 
-    grid-template-areas:"achievements-title"
-                        "achievement-1"
-                        "achievement-1-label"
-                        "achievement-2"
-                        "achievement-2-label";
 }
 
 .achievement-1 {
@@ -187,27 +148,6 @@ nav li{
     display: block;
     margin-left:auto;
     margin-right:auto;
-}
-
-.aws-cert{
-    height: 250px;
-    width: 250px;
-}
-
-.mh-cert {
-    height: 250px;
-    width: 250px;
-}
-
-.socials {
-    grid-template-areas:"socials-title"
-                        "twitter"
-                        "twitter-lnk"
-                        "linkedIn"
-                        "linkedIn-lnk"
-                        "github"
-                        "github-lnk"
-                        "socials-txt";
 }
 
 .twitter{
