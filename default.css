@@ -19,24 +19,24 @@ body {
     grid-template-areas: "nav-behind"
                          "landing"
                          "about"
-                         "about-history-divide"
                          "history"
-                         "history-goals-divide"
                          "goals"
-                         "goals-projects-divide"
                          "projects"
-                         "projects-experiences-divide"
                          "experiences"
-                         "experiences-achievements-divide"
                          "achievements"
-                         "achievements-blog-divide"
                          "blog"
-                         "blog-socials-divide"
                          "socials"
-                         "socials-contact-divide"
                          "contact"
-                         "contact-footer-divide"
                          "footer";
+}
+
+.divide {
+    background: linear-gradient(45deg,#F8C8DC ,#96DED1);
+    margin-bottom: 5em;
+    width: 100%;
+    height: 20px;
+    filter: blur(1px);
+    z-index: -1;
 }
 
 h1 {
@@ -56,7 +56,6 @@ p {
 
 li {
     font-family: 'Poppins', sans-serif;
-    list-style: square;
     
 }
 nav {
@@ -67,6 +66,7 @@ nav {
     padding-top:2em;
     color:#551A8B ; 
 }
+
 .nav-behind {
     grid-area:nav-behind;
     background-image:linear-gradient(45deg,#F8C8DC ,#96DED1);
@@ -105,29 +105,9 @@ nav {
     margin: 1em;
 }
 
-.about-history-divide {
-    grid-area:about-history-divide;
-    background: linear-gradient(45deg,#F8C8DC ,#96DED1);
-    margin-bottom: 5em;
-    width: 100%;
-    height: 20px;
-    filter: blur(1px);
-    z-index: -1;
-}
-
 .history {
     grid-area:history;
     padding-bottom: 12em;
-}
-
-.history-goals-divide {
-    grid-area:history-goals-divide;
-    background: linear-gradient(45deg,#F8C8DC ,#96DED1);
-    margin-bottom: 5em;
-    width: 100%;
-    height: 20px;
-    filter: blur(1px);
-    z-index: -1;
 }
 
 .goals {
@@ -139,15 +119,6 @@ nav {
     list-style: none;
 }
 
-.goals-projects-divide {
-    grid-area:goals-projects-divide;
-    background: linear-gradient(45deg,#F8C8DC ,#96DED1);
-    margin-bottom: 5em;
-    width: 100%;
-    height: 20px;
-    filter: blur(1px);
-    z-index: -1;
-}
 
 .projects {
     grid-area:projects;
@@ -205,28 +176,9 @@ nav {
     background: linear-gradient(45deg,#F8C8DC ,#96DED1);
 }
 
-.projects-experiences-divide {
-    grid-area:projects-experiences-divide;
-    background: linear-gradient(45deg,#F8C8DC ,#96DED1);
-    margin-bottom: 5em;
-    width: 100%;
-    height: 20px;
-    filter: blur(1px);
-    z-index: -1;
-}
 .experiences {
     grid-area:experiences;
     padding-bottom: 12em;
-}
-
-.experiences-achievements-divide {
-    grid-area:experiences-achievements-divide;
-    background: linear-gradient(45deg,#F8C8DC ,#96DED1);
-    margin-bottom: 5em;
-    width: 100%;
-    height: 20px;
-    filter: blur(1px);
-    z-index: -1;
 }
 
 .achievements { 
@@ -270,28 +222,10 @@ nav {
     z-index: -1;
 }
 
-.achievements-blog-divide {
-    grid-area:achievements-blog-divide;
-    background: linear-gradient(45deg,#F8C8DC ,#96DED1);
-    margin-bottom: 5em;
-    width: 100%;
-    height: 20px;
-    filter: blur(1px);
-    z-index: -1;
-}
 
 .blog {
     grid-area:blog;
     padding-bottom: 5em;
-}
-.blog-socials-divide {
-    grid-area:blog-socials-divide;
-    background: linear-gradient(45deg,#F8C8DC ,#96DED1);
-    margin-bottom: 5em;
-    width: 100%;
-    height: 20px;
-    filter: blur(1px);
-    z-index: -1;
 }
 
 .socials {
@@ -355,27 +289,9 @@ nav {
     margin: 2em;
 }
 
-.socials-contact-divide {
-    grid-area:socials-contact-divide;
-    background: linear-gradient(45deg,#F8C8DC ,#96DED1);
-    margin-bottom: 5em;
-    width: 100%;
-    height: 20px;
-    filter: blur(1px);
-    z-index: -1;
-}
 .contact {
     grid-area:contact;
     padding-bottom: 12em;
-}
-.contact-footer-divide {
-    grid-area:contact-footer-divide;
-    background: linear-gradient(45deg,#F8C8DC ,#96DED1);
-    margin-bottom: 5em;
-    width: 100%;
-    height: 20px;
-    filter: blur(1px);
-    z-index: -1;
 }
 
 .submit {
