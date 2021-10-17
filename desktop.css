@@ -61,10 +61,10 @@ nav li{
     background-color: white;
 }
 
-#historyContainer {
+.container {
     padding: 5em;
 }
 
-#historyContainer p {
+.container p {
     padding-bottom: 1em;
 }
