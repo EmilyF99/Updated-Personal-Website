@@ -29,9 +29,9 @@ nav:target {
 }
 
 nav li{
-    padding:1em;
+    padding: 1em;
     list-style: none;
-    font-size: 1.1em;
+    font-size: 1em;
 }
 
 #landing {
@@ -108,3 +108,16 @@ nav li{
     box-shadow: 4px 4px grey;
     font-size: 1em;
   }
+
+#blogContainer p a {
+    box-shadow: 4px 4px grey;
+}
+
+.socials {
+    padding: 1em;
+}
+
+#contactContainer button {
+    box-shadow: 4px 4px grey;
+    font-size: 1em;
+}

@@ -155,6 +155,11 @@ li {
 
   #blogContainer p a {
     background: linear-gradient(45deg,#F8C8DC ,#96DED1);
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    margin-top: 4em;
 }
 
 #socialsContainer {
@@ -170,7 +175,7 @@ li {
 
   .socials {
     padding: 2em;
-}
+  }
 
 #HTMLCSSContainer {
     padding: 1em;
@@ -243,4 +248,14 @@ li {
     border-image: linear-gradient(45deg,#F8C8DC ,#96DED1);
     border-image-slice:1;
     z-index: -1;
+}
+
+#contactContainer button {
+  background: linear-gradient(45deg,#F8C8DC ,#96DED1);
+  padding-left: 2em;
+  padding-right: 2em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  margin-top: 2em;
+  color: #282634;
 }
