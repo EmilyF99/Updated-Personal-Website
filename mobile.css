@@ -66,3 +66,16 @@ nav li{
     height: 200px;
     width: 200px;
 }
+
+.projects {
+    width: 200px;
+    height: 275px;
+    margin: 2em;
+    box-shadow: 4px 4px grey;
+    font-size: 1em;
+  }
+
+  .mobileSize {
+      width: 200px;
+      height: 200px;
+    }
