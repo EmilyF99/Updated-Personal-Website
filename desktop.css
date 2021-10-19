@@ -3,14 +3,12 @@ nav li{
     padding: 1em;
 }
 
+.shownav {
+    visibility: hidden;
+}
+
 #landing {
     padding-top: 8em;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap; 
-    margin:auto;
-    max-width: 100%;
 }
 
 #landing h1 {

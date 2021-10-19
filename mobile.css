@@ -15,9 +15,9 @@ nav:target {
 }
 
 .shownav {
-    height: 5em;
+    height: 4em;
     width: 8em;
-    padding-top: 1em;
+    padding-top: 2em;
     top: 10px;
     left: 8px;
     display: block;
@@ -25,12 +25,17 @@ nav:target {
     border: 0.2em solid white;
     background: linear-gradient(45deg,#F8C8DC ,#96DED1);
     position:fixed;
+    z-index: 2;
 }
 
 nav li{
     padding:1em;
     list-style: none;
     font-size: 1.1em;
+}
+
+#landing {
+    padding-top: 5em;
 }
 
 #landing h1 {
@@ -41,20 +46,23 @@ nav li{
     z-index: -1;
 }
 
-#landing h1::before {
-    content:attr(title);
-    position: absolute;
-    font-family:'Open Sans', sans-serif;
-    color: magenta;
-    z-index: -2;
-    left: 0.5%;
+.nav-behind {
+    color: transparent;
+    padding:2em;
 }
 
-#landing h1::after {
-    content:attr(title);
-    position: absolute;
-    font-family:'Open Sans', sans-serif;
-    color: cyan;
-    z-index: -3;
-    left: -0.5%;
+#aboutContainer {
+    padding: 4em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap; 
+    margin:auto;
+    max-width: 80%;
+    height: auto;
+}
+
+#about-image {
+    height: 200px;
+    width: 200px;
 }

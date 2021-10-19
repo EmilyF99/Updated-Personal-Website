@@ -35,6 +35,20 @@ nav {
     z-index: 1;
 }
 
+.nav-behind {
+  background-image:linear-gradient(45deg,#F8C8DC ,#96DED1);
+  
+}
+
+#landing {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap; 
+  margin:auto;
+  max-width: 100%;
+}
+
 h1 {
     font-family: 'Poppins', sans-serif;
 }
