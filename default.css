@@ -31,7 +31,7 @@ nav {
     top: 0;
     padding-bottom: 2em;
     padding-top:2em;
-    color:#551A8B ;
+    color:#282634;
     z-index: 1;
 }
 
@@ -66,5 +66,162 @@ li {
     background: linear-gradient(45deg,#F8C8DC ,#96DED1);
 }
 
+#historyContainer {
+    max-width: 80%;
+}
+.container {
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap; 
+  margin:auto;
+  max-width: 100%;
+}
 
+#projectContainer {
+    padding: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap; 
+    margin:auto;
+    max-width: 100%;
+    height: auto;
+  }
 
+  .projects {
+    background: linear-gradient(45deg,#F8C8DC ,#96DED1);
+    color: #282634;
+    display: block;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  #allProjects {
+    background: linear-gradient(45deg,#F8C8DC ,#96DED1);
+}
+
+#achievementsContainer {
+    padding: 1em;
+    display: flex;
+    height: auto;
+  }
+
+  .achievements {
+    background: linear-gradient(45deg,#F8C8DC ,#96DED1);
+    color: #282634;
+    display: block;
+    font-family: 'Poppins', sans-serif;
+  }
+
+   #awardsContainer {
+    padding: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap; 
+    margin:auto;
+    max-width: 100%;
+    height: auto;
+  }
+
+  .awards {
+    background: linear-gradient(45deg,#F8C8DC ,#96DED1);
+    color: #282634;
+    display: block;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  #blogContainer {
+    max-width: 80%;
+  }
+
+  #blogContainer p a {
+    background: linear-gradient(45deg,#F8C8DC ,#96DED1);
+}
+
+#socialsContainer {
+    padding: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap; 
+    margin:auto;
+    max-width: 100%;
+    height: auto;
+  }
+
+  .socials {
+    padding: 2em;
+}
+
+#HTMLCSSContainer {
+    padding: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap; 
+    margin:auto;
+    max-width: 100%;
+    height: auto;
+  }
+
+  #JSContainer {
+    padding: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap; 
+    margin:auto;
+    max-width: 100%;
+    height: auto;
+  }
+
+  #JavaContainer {
+    padding: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap; 
+    margin:auto;
+    max-width: 100%;
+    height: auto;
+  }
+
+  #OthContainer {
+    padding: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap; 
+    margin:auto;
+    max-width: 100%;
+    height: auto;
+  }
+
+  #OthContainer {
+    padding: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap; 
+    margin:auto;
+    max-width: 100%;
+    height: auto;
+  }
+
+  #HardwareContainer {
+    padding: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap; 
+    margin:auto;
+    max-width: 100%;
+    height: auto;
+  }
+  
+  #aboutImg {
+    border: 20px solid transparent;
+    border-image: linear-gradient(45deg,#F8C8DC ,#96DED1);
+    border-image-slice:1;
+    z-index: -1;
+}
