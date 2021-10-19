@@ -100,3 +100,11 @@ nav li{
     box-shadow: 4px 4px grey;
     font-size: 1em;
   }
+
+.awards {
+    width: 200px;
+    height: 275px;
+    margin: 2em;
+    box-shadow: 4px 4px grey;
+    font-size: 1em;
+  }
