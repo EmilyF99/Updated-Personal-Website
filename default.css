@@ -110,7 +110,13 @@ li {
   
   #allProjects {
     background: linear-gradient(45deg,#F8C8DC ,#96DED1);
-}
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    margin-top: 2em;
+  }
+
 
 #achievementsContainer {
     padding: 1em;

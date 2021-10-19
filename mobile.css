@@ -75,7 +75,15 @@ nav li{
     font-size: 1em;
   }
 
-  .mobileSize {
-      width: 200px;
-      height: 200px;
-    }
+.mobileSize {
+    width: 200px;
+    height: 200px;
+}
+
+#HTMLCSS{
+    padding-top: 6.5em;
+}
+  
+#allProjects {
+    box-shadow: 4px 4px grey;
+}
