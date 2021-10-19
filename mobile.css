@@ -87,3 +87,16 @@ nav li{
 #allProjects {
     box-shadow: 4px 4px grey;
 }
+
+#experiencesContainer h3 {
+    font-size: 1.2em;
+    padding-top: 1em;
+}
+
+.achievements {
+    width: 200px;
+    height: 275px;
+    margin: 2em;
+    box-shadow: 4px 4px grey;
+    font-size: 1em;
+  }
